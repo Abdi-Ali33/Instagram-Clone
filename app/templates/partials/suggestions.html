@@ -1,0 +1,30 @@
+<div class="col-lg-4 offset-lg-1 d-none d-lg-initial p-2 suggested">
+    <div class="position-sticky p-3 top-0">
+        <h5 class="text-muted fw-bold">
+            Suggested for you
+        </h5>
+        <div class="suggestions pt-3">
+            {% for suggestion in suggested_followers %}
+
+            <div class="suggestion-card mb-3">
+                <div class="d-flex align-items-center">
+                    <img src="{% if suggestion.avatar %} {{suggestion.avatar}} {% else %} {{suggestion.fallback_avatar}} {% endif %}"
+                        alt="" class="img-30 rounded-circle">
+                    <a href="{% url 'user_profile' user_id=suggestion.username %}">
+                        <h6 class="fw-bold ps-3 text-capitalize mb-0 text-dark">{{suggestion.full_name}}</h6>
+                    </a>
+                    <a href="{% url 'follow_user' user_id=suggestion.id %}" class="ms-auto fw-bold text-sm">Follow</a>
+                </div>
+            </div>
+            {% endfor %}
+            {% if suggested_followers|length == 0 %}
+            No suggestions yet
+            {% endif %}
+        </div>
+        <div class="pt-4">
+            <p class="text-muted copyright text-sm">
+                © 2022 <a href="#" class="">Insta</a>
+            </p>
+        </div>
+    </div>
+</div>
