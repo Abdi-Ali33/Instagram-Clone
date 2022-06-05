@@ -39,3 +39,14 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 * open the browser and navigate to http://127.0.0.1:8000/ to see the application in action
+
+## Technologies Used
+The following technologies have been used on this project:
+
+* HTML
+* CSS
+* JS
+* Bootstrap
+* Django
+* Python
+* Cloudinary (for image upload)
