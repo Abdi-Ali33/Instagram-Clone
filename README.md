@@ -50,7 +50,8 @@ The following technologies have been used on this project:
 * Django
 * Python
 * Cloudinary (for image upload)
-
+## Live link
+[Here is the link to the live site]
 # License
 
 MIT License
@@ -74,3 +75,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Authors Info
+
+Slack Profile - [Abdi Ali](https://app.slack.com/client/T0101L740P4/D032HD8S7CP)
+
+Github Profile- https://github.com/Abdi-Ali33
