@@ -92,13 +92,13 @@ WSGI_APPLICATION = 'instag.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'd5fjeuvsqfnh4f',
-            'USER': 'hflrkihuylhipv',
-            'PASSWORD': 'cff48af0efc06de543ed8dd6369812cb30c4b5105f3a4d6246e851b36bdca84a',
-            'HOST':'ec2-34-231-221-151.compute-1.amazonaws.com',
-            'PORT':'5432',
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd5fjeuvsqfnh4f',
+        'USER': 'hflrkihuylhipv',
+        'PASSWORD': 'cff48af0efc06de543ed8dd6369812cb30c4b5105f3a4d6246e851b36bdca84a',
+        'HOST': 'ec2-34-231-221-151.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 # development
@@ -186,9 +186,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_COOKIE_SECURE = False if ENV == 'development' else True
 # setup cloudinary credentials for django-cloudinary
 cloudinary.config(
-    cloud_name=config('CLOUDINARY_CLOUD_NAME', default=''),
-    api_key=config('CLOUDINARY_API_KEY', default=''),
-    api_secret=config('CLOUDINARY_API_SECRET', default=''),
+    cloud_name=config('CLOUDINARY_CLOUD_NAME', default='waberi33'),
+    api_key=config('CLOUDINARY_API_KEY', default='242373711326286'),
+    api_secret=config('CLOUDINARY_API_SECRET',
+                      default='PuUk1vItNok1vgHh8jd3ey2e5Os'),
     secure=True
 )
 # Email config
