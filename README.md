@@ -9,6 +9,13 @@
 An Instagram clone that allow users follow each other and can see the images they post.
 
 ## Screenshot
+![Screnshot](./screenshots/screenshot1.png)
+![Screnshot](./screenshots/screenshot2.png)
+![Screnshot](./screenshots/screenshot3.png)
+![Screnshot](./screenshots/screenshot4.png)
+![Screnshot](./screenshots/screenshot5.png)
+![Screnshot](./screenshots/screenshot6.png)
+![Screnshot](./screenshots/screenshot7.png)
 # Setup / Installation
 * clone the repo:
 
