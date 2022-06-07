@@ -18,10 +18,8 @@ class User(AbstractUser):
 
     @property
     def fallback_avatar(self):
-        return f' https: // ui-avatars.com/api /?name = {self.url_formatted_name} & background = 8655ff & color = fff'
-        # https: // ui-avatars.com/api /?name = {self.url_formatted_name} & background = 8655ff & color = fff
+        return f'https://ui-avatars.com/api/?name={self.url_formatted_name}&background=8655ff&color=fff'
 
-# https://avatars.abstractapi.com/v1/?api_key=3257ee7097604595918679f1f6fc78a2&name=Claire Florentz
     @property
     def avatar(self):
         return self.profile.avatar

@@ -186,10 +186,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_COOKIE_SECURE = False if ENV == 'development' else True
 # setup cloudinary credentials for django-cloudinary
 cloudinary.config(
-    cloud_name=config('CLOUDINARY_CLOUD_NAME', default='waberi33'),
-    api_key=config('CLOUDINARY_API_KEY', default='242373711326286'),
+    cloud_name=config('CLOUDINARY_CLOUD_NAME', default=''),
+    api_key=config('CLOUDINARY_API_KEY', default=''),
     api_secret=config('CLOUDINARY_API_SECRET',
-                      default='PuUk1vItNok1vgHh8jd3ey2e5Os'),
+                      default=''),
     secure=True
 )
 # Email config
