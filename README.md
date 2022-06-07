@@ -51,7 +51,7 @@ The following technologies have been used on this project:
 * Python
 * Cloudinary (for image upload)
 ## Live link
-[Here is the link to the live site]
+[Here is the link to the live site](https://intagram-clone11.herokuapp.com/)
 # License
 
 MIT License
