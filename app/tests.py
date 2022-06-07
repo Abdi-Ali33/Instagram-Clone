@@ -10,11 +10,11 @@ class ImageTestCase(TestCase):
         # create a user
         self.user = User.objects.create(
             username='test_user',
-            full_name='john doe',
+            full_name='abdi ali',
         )
         Image.objects.create(
             title='test image',
-            image='https://res.cloudinary.com/james-m/image/upload/v1646636668/bbejbztp3i23jtfgoxzu.webp',
+            image='https://res.cloudinary.com/waberi33/image/upload/v1654592232/post_k1dlxs.jpg',
             caption='test caption',
             user=self.user
         )
@@ -30,12 +30,12 @@ class ProfileTestCase(TestCase):
         # create a user
         self.user = User.objects.create(
             username='test_user',
-            full_name='john doe',
+            full_name='abdi ali',
         )
 
         Profile.objects.create(
             bio='test bio',
-            avatar='https://res.cloudinary.com/james-m/image/upload/v1646636668/bbejbztp3i23jtfgoxzu.webp',
+            avatar='https://res.cloudinary.com/waberi33/image/upload/v1654592232/post_k1dlxs.jpg',
             user=self.user
         )
 
@@ -50,12 +50,12 @@ class LikesTestCase(TestCase):
         # create a user
         self.user = User.objects.create(
             username='test_user',
-            full_name='john doe',
+            full_name='abdi ali',
         )
         # create a image
         self.image = Image.objects.create(
             title='test image',
-            image='https://res.cloudinary.com/james-m/image/upload/v1646636668/bbejbztp3i23jtfgoxzu.webp',
+            image='https://res.cloudinary.com/waberi33/image/upload/v1654592232/post_k1dlxs.jpg',
             caption='test caption',
             user=self.user
         )
@@ -76,12 +76,12 @@ class CommentsTestCase(TestCase):
         # create a user
         self.user = User.objects.create(
             username='test_user',
-            full_name='john doe',
+            full_name='abdi ali',
         )
         # create a image
         self.image = Image.objects.create(
             title='test image',
-            image='https://res.cloudinary.com/james-m/image/upload/v1646636668/bbejbztp3i23jtfgoxzu.webp',
+            image='https://res.cloudinary.com/waberi33/image/upload/v1654592232/post_k1dlxs.jpg',
             caption='test caption',
             user=self.user
         )
